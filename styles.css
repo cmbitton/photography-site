@@ -1,0 +1,33 @@
+.home-image {
+    position: relative;
+    height: 100vh;
+    left: 1000%;
+    margin-left: -2000%;
+    z-index: -1;
+}
+
+.home-div {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-heading {
+    color: white;
+    font-size: 108px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+@media screen {
+
+    @media(min-width: 1450px) {
+        .home-image {
+            width: 100%;
+        }
+    }
+   
+}
+
